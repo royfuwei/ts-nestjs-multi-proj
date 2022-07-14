@@ -1,0 +1,13 @@
+#
+## Base Stage 
+FROM node:15-alpine AS base-stage
+WORKDIR /ts-clean-arch
+RUN apk add --no-cache tzdata curl bash openssh git 
+ENV TZ Asia/Taipei
+COPY . .
+RUN npm ci
+
+EXPOSE 5007
+
+# ENTRYPOINT ["npm", "run", "dev:debug"]
+CMD ["node"]
