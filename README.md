@@ -1,4 +1,4 @@
-ts-nestjs-arch
+ts-nestjs-multi-proj
 ===
 
 ## 環境變數配置

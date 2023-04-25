@@ -1,7 +1,7 @@
 /**
  * service 使用api 的header uid
  */
-export const SERVICE_HEADER_UID = 'ts-nestjs-arch';
+export const SERVICE_HEADER_UID = 'ts-nestjs-multi-proj';
 /**
  * 內部開發使用的project type
  * 給 core decorator, service, controller 區分project type 使用

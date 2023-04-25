@@ -28,7 +28,7 @@ PROJECT_INIT_CONFIG=
 
 ### 專案的`.env`:
 
-各專案配置`.env` 內容可以參考[helm/ts-nestjs-arch/values.yaml](../../helm/ts-nestjs-arch/values.yaml)。
+各專案配置`.env` 內容可以參考[helm/ts-nestjs-multi-proj/values.yaml](../../helm/ts-nestjs-multi-proj/values.yaml)。
 
 ```shell
 TASK_FREQ='0 30 6 * * *'
@@ -52,25 +52,25 @@ ex: 專案
 #### configs.json:
 - 客戶端的配置`{project}`:
   - `PROJECT_TYPE＝{project}`
-  - [helm/ts-nestjs-arch/initial/{project}/configs.json](../../../helm/ts-nestjs-arch/initial/{project}-sit/configs.json)
+  - [helm/ts-nestjs-multi-proj/initial/{project}/configs.json](../../../helm/ts-nestjs-multi-proj/initial/{project}-sit/configs.json)
 - 客戶端的配置`{project}-sit`:
   - `PROJECT_TYPE＝{project}, PROJECT_INIT_CONFIG＝{project}-sit`
-  - [helm/ts-nestjs-arch/initial/{project}-sit/configs.json](../../../helm/ts-nestjs-arch/initial/{project}-sit/configs.json)
+  - [helm/ts-nestjs-multi-proj/initial/{project}-sit/configs.json](../../../helm/ts-nestjs-multi-proj/initial/{project}-sit/configs.json)
 - 客戶端的配置`{project}-uat`:
   - `PROJECT_TYPE＝{project}, PROJECT_INIT_CONFIG＝{project}-uat`
-  - [helm/ts-nestjs-arch/initial/{project}-uat/configs.json](../../../helm/ts-nestjs-arch/initial/{project}-sit/configs.json)
+  - [helm/ts-nestjs-multi-proj/initial/{project}-uat/configs.json](../../../helm/ts-nestjs-multi-proj/initial/{project}-sit/configs.json)
 
 #### ormconfigs.json:
 
 - 客戶端的配置`{project}`:
   - `PROJECT_TYPE＝{project}`
-  - [helm/ts-nestjs-arch/initial/{project}/ormconfigs.json](../../helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json)
+  - [helm/ts-nestjs-multi-proj/initial/{project}/ormconfigs.json](../../helm/ts-nestjs-multi-proj/initial/{project}-sit/ormconfigs.json)
 - 客戶端的配置`{project}-sit`:
   - `PROJECT_TYPE＝{project}, PROJECT_INIT_CONFIG＝{project}-sit`
-  - [helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json](../../helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json)
+  - [helm/ts-nestjs-multi-proj/initial/{project}-sit/ormconfigs.json](../../helm/ts-nestjs-multi-proj/initial/{project}-sit/ormconfigs.json)
 - 客戶端的配置`{project}-uat`:
   - `PROJECT_TYPE＝{project}, PROJECT_INIT_CONFIG＝{project}-uat`
-  - [helm/ts-nestjs-arch/initial/{project}-uat/ormconfigs.json](../../helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json)
+  - [helm/ts-nestjs-multi-proj/initial/{project}-uat/ormconfigs.json](../../helm/ts-nestjs-multi-proj/initial/{project}-sit/ormconfigs.json)
 
 
 與程式開發對應的位置
