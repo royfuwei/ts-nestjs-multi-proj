@@ -1,7 +1,7 @@
 #
 ## Base Stage 
 FROM node:16.13.1-alpine3.14 AS base-stage
-WORKDIR /ts-clean-arch
+WORKDIR /ts-nestjs-arch
 RUN apk update && apk --no-cache upgrade musl && apk add --no-cache tzdata curl bash openssh git 
 
 
@@ -45,7 +45,7 @@ COPY package.json .
 COPY package-lock.json .
 
 COPY --from=dependencies-stage /production_node_modules node_modules
-COPY --from=build-stage /ts-clean-arch/dist dist
+COPY --from=build-stage /ts-nestjs-arch/dist dist
 
 COPY .env .
 

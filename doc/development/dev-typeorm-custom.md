@@ -29,13 +29,13 @@ PROJECT_INIT_CONFIG={project}-test
 規則會如下:
 - 客戶端的配置`{project}`:
   - env: `PROJECT_TYPE＝{project}`
-  - [helm/ts-clean-arch/initial/{project}/ormconfigs.json](../../helm/ts-clean-arch/initial/{project}-sit/ormconfigs.json)
+  - [helm/ts-nestjs-arch/initial/{project}/ormconfigs.json](../../helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json)
 - 客戶端的配置`{project}-sit`:
   - env: `PROJECT_TYPE＝{project}, PROJECT_INIT_CONFIG＝{project}-sit`
-  - [helm/ts-clean-arch/initial/{project}-sit/ormconfigs.json](../../helm/ts-clean-arch/initial/{project}-sit/ormconfigs.json)
+  - [helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json](../../helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json)
 - 客戶端的配置`{project}-uat`:
   - env: `PROJECT_TYPE＝{project}, PROJECT_INIT_CONFIG＝{project}-uat`
-  - [helm/ts-clean-arch/initial/{project}-uat/ormconfigs.json](../../helm/ts-clean-arch/initial/{project}-sit/ormconfigs.json)
+  - [helm/ts-nestjs-arch/initial/{project}-uat/ormconfigs.json](../../helm/ts-nestjs-arch/initial/{project}-sit/ormconfigs.json)
 
 
 

@@ -1,4 +1,4 @@
-ts-clean-arch
+ts-nestjs-arch
 ===
 
 ## 環境變數配置
